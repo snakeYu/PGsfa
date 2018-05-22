@@ -1,6 +1,6 @@
 <template>
   <div>
-    s
+    s2
   </div>
 </template>
 <script>
