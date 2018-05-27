@@ -1,20 +1,30 @@
-/* eslint-disable */
-
+@charset 'utf-8';
+@import '@/assets/lib/px2rem.scss';
+@import '@/scss/bgImage.scss';
+// 设计图的宽度
+$designWidth: 750;
+//
+$headerHeight: 110;
 // 颜色变量
 $c10903d: #10903d;
 $c24be5a: #24be5a;
 $c29db67: #29db67;
+$c4bd963: #4bd963;
 $c000: #000;
 $c757575: #757575;
-$cfff :#fff;
-$cfafafa:#fafafa;
+$cfff: #fff;
+$cfafafa: #fafafa;
 $ce8e8e8: #e8e8e8;
-$cf00:#ff0000;
-$c00a2eb:#00a2eb;
+$cf00: #ff0000;
+$c00a2eb: #00a2eb;
+$cf5f5f5: #f5f5f5;
+$c70cb8a:#70cb8a;
 // 字体大小变量
-$f36:36px;
-$f28:28px;
-$f24:24px;
-$f22:22px;
-// 设计图是750
-$designWidth:750;
+$f36: 36;
+$f30: 30;
+$f28: 28;
+$f24: 24;
+$f22: 22;
+$f1: 1;
+// 左内边距
+$pl28:28;

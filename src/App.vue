@@ -5,13 +5,13 @@
 </template>
 
 <script>
+import './assets/lib/hotcss'
 export default {
   name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-}
+@import './assets/font/iconfont.css';
+@import './scss/common.scss';
 </style>

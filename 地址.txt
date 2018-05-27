@@ -1,0 +1,21 @@
+admin@192.168.0.127:sfa.git
+
+
+git add .
+git commit -m ‘消息’
+git pull --rebase origin dev
+处理冲突
+Git add .
+git rebase --continue
+git log
+git log --graph
+git status
+git add .
+git commit -m '消息'
+git push
+
+放弃pull
+Git rebase --abort
+
+回退
+git rebase -git 
